@@ -18,16 +18,16 @@ Under development (As of 2021).
 
 Jaakko Rajala, jaakko.rajala@tuni.fi
 
-## Todo list(In no specific order atm):
+## Current Todo list(In no specific order atm):
 
-[ ] Make video-list display more than 5 items through the youtube api. Perhaps the next 5 suggested items?
-[ ] Come up with a better way to display the video-list? Not a priority.
-[ ] Remodel the chat-component and more specificly, the single comment-component.
-[ ] Separate comment-component to separate react components.
-[ ] Add a working database. Probably with MongoDB, could possibly do something SQL-based for practise sake?  
-[ ] Use the database to store data for actual accounts, comments, video-preferations, etc.
-[ ] Add a unique default video-list based on users most popular search terms. (current term: books)
-[ ] Create a login screen (Probably a pop-up that only triggers if no user has been logged in in the past.)
+- [ ] Make video-list display more than 5 items through the youtube api. Perhaps the next 5 suggested items?
+- [ ] Come up with a better way to display the video-list? Not a priority.
+- [ ] Remodel the chat-component and more specificly, the single comment-component.
+- [ ] Separate comment-component to separate react components.
+- [ ] Add a working database. Probably with MongoDB, could possibly do something SQL-based for practise sake?  
+- [ ] Use the database to store data for actual accounts, comments, video-preferations, etc.
+- [ ] Add a unique default video-list based on users most popular search terms. (current term: books)
+- [ ] Create a login screen (Probably a pop-up that only triggers if no user has been logged in in the past.)
 
 ## Available Scripts
 
