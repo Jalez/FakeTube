@@ -1,0 +1,5 @@
+/** @format */
+
+.video-list {
+	grid-area: video-list;
+}

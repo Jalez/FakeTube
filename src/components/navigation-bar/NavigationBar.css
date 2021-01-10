@@ -1,0 +1,26 @@
+/** @format */
+
+.navigation-bar {
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	background-color: #6e3333;
+	border-bottom: 2px solid #614343;
+	z-index: 1;
+}
+
+.navbar-grid {
+	display: grid;
+	grid-template-columns: 0fr 1.5fr;
+	grid-template-areas: 'account-card search-bar';
+	grid-gap: 10px;
+}
+
+.account-card {
+	grid-area: 'account-card';
+}
+
+.search-bar {
+	grid-area: 'search-bar';
+}

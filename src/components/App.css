@@ -1,0 +1,54 @@
+/** @format */
+
+.video-app {
+}
+
+.grid-container {
+	padding-top: 60px;
+	display: grid;
+	grid-template-columns: 1.4fr 0.6fr;
+	gap: 0px 0px;
+	background-color: rgb(255, 255, 255);
+	grid-template-areas: 'video-details video-list';
+}
+
+.navigation-bar {
+	grid-area: navigation-bar;
+}
+
+.video-details {
+	grid-area: video-details;
+}
+
+.video-list {
+	grid-area: video-list;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+	.grid-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+			'video-details'
+			'video-list';
+	}
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.grid-container {
+	}
+}
+
+/* Small monitor */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.grid-container {
+	}
+}
+
+/* Large monitor */
+@media only screen and (min-width: 1200px) {
+	.grid-container {
+	}
+}
