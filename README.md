@@ -1,6 +1,7 @@
 <!-- @format -->
 
 # FakeTube (Temporary title)
+![Preview image of Application](readmeFiles/defaultFrontPage.PNG)
 
 ## About this program:
 
