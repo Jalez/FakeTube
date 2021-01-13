@@ -13,10 +13,12 @@ export default class App extends Component {
 		selectedVideo: null,
 	};
 
+	//Life cycle method, replacing this with use effect in a functional component.
 	componentDidMount() {
 		this.onSearch('Books');
 	}
 
+	//this will be replaced with a method that uses the useState-method of a functional component.
 	onSearch = async (term) => {
 		const response = await youtube.get('/search', {
 			params: {
@@ -30,6 +32,7 @@ export default class App extends Component {
 		});
 	};
 
+	//This will be replaced by a simple setState
 	videoItemClickListener = (item) => {
 		this.setState({ selectedVideo: item });
 	};
