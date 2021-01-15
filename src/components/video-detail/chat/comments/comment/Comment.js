@@ -58,6 +58,7 @@ function Comment({ comment, date, userId }) {
 					<button className='like'>Like</button>
 				</div>
 			</div>
+			<hr />
 		</div>
 	);
 }

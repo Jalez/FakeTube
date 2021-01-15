@@ -32,8 +32,8 @@ function ReplyForm(props) {
 					placeholder='Thoughts?'
 				/>
 			</div>
-			<button onClick={formOnSubmit} className='ui labeled submit icon button'>
-				<i className='icon edit'></i> Add Reply
+			<button className='postBtn' onClick={formOnSubmit}>
+				<i></i> Reply
 			</button>
 		</form>
 	);
